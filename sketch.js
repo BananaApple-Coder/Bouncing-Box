@@ -17,6 +17,12 @@ function setup(){
     block2 = createSprite(295,580,200,30);
     block2.shapeColor = "orange";
 
+    block2 = createSprite(515,580,200,30);
+    block2.shapeColor = "red";
+
+    block2 = createSprite(740,580,200,30);
+    block2.shapeColor = "Green";
+
     //create two more blocks i.e. block3 and block4 here
 
     ball = createSprite(random(20,750),100, 40,40);
